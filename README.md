@@ -61,7 +61,7 @@ Developer ID署名・Appleの公証は含みません。別のMacへの一般配
 # 圧縮形式も含めてテストする場合のみ、既存のFFmpegを使用
 ./scripts/test-formats.sh
 # アプリ配布用ZIP
- ditto -c -k --sequesterRsrc --keepParent dist/MusicPilot.app ../MusicPilot-macOS-arm64.zip
+ditto -c -k --sequesterRsrc --keepParent dist/MusicPilot.app ../MusicPilot-macOS-arm64.zip
 ```
 
 ## 構成と拡張方法
@@ -88,5 +88,5 @@ Grooveでは正の`offsetMilliseconds`を「基準拍より後」、負を「前
 ## Git
 
 このフォルダで独立したローカルGitリポジトリとして管理します。
-`.build`、`dist`、一時テストデータは追跡対象外です。GitHub等への公開は行っていません。
+`.build`、`dist`、一時テストデータは追跡対象外です。公開リポジトリ: [fattime73-coder/MusicPilot](https://github.com/fattime73-coder/MusicPilot)。
 検証結果と未検証項目は`VALIDATION.md`を参照してください。
